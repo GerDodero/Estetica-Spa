@@ -1,0 +1,106 @@
+/*Decoracion general*/
+html{
+    font-style: italic;
+}
+/*Decoracion del header*/
+header{
+    display: flex;
+    /*flex-direction: column;*/
+    align-items:center;
+    justify-content: space-between;
+    padding-right: 20px;
+    height: 100px;
+}
+header img{
+    width: 9%;
+    padding: 25px;
+}
+header nav ul{
+    font-size:larger;
+    list-style: none;
+    color: cyan;
+    display: flex;
+    column-gap: 25px;
+    display: flex;
+    border: 10px;
+}
+
+.separador {
+    background: #000000;
+    width: 5px;
+    height: 5px;
+    display: inline-flex;
+    vertical-align: bottom;
+    transform: rotate(45deg);
+    margin-top: 9px;
+}
+/*Decoracion de pagina principal*/
+main section h1{
+    font-size: 50px;
+    text-align: center;
+    background-color: #B7FFD8;
+}
+.tituloSecundario{
+    font-size: 50px;
+    text-align: center;
+    background-color: #C4F5FC;
+    text-decoration: none;
+}
+main h2{
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+main h3{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.servicios{
+    text-align: left;
+}
+
+.imagenPrincipal{
+    width: 1000px;
+    height: 1000px;
+}
+
+.inicioImagen{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gridImages{
+    display: flex;
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3, 100px);
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gridImages div img{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+/*Decoracion de pie de pagina*/
+footer{
+    display: flex;
+    align-items: center;
+}
+footer h2{
+    text-align: center;
+    font-size: 30px;
+
+
+}
+.redesContacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.inicioPrincipal{
+    grid-template-rows: repeat(3, 300px);
+}
