@@ -1,0 +1,44 @@
+/*Media Queries*/
+@media screen and (max-width: 768px) {
+    header {
+        img {
+            width: $medidaUno;
+        }
+    }
+
+    .mainPromociones {
+        .carousel-item {
+            img {
+                height: 300px;
+            }
+        }
+    }
+    .mainServicios {
+        .gridServicios {
+            display: flex;
+            flex-wrap: wrap;
+            div {
+                margin: 10px;
+            }
+        }
+        .servicios {
+            text-align: center;
+        }
+    }
+    .mainContacto {
+        .formularioNombre {
+            width: 200px;
+        }
+        .formularioEmail {
+            width: 200px;
+        }
+        .formularioMensaje {
+            width: 200px;
+        }
+        .mapa {
+            margin-left: 50px;
+            margin-bottom: 50px;
+            height: 300px;
+        }
+    }
+}

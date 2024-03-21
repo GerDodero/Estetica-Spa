@@ -1,0 +1,17 @@
+@import "utilities/variables";
+@import "utilities/extend";
+@import "utilities/mixin";
+@import "utilities/reset";
+@import "utilities/globals";
+
+@import "components/header";
+
+@import "pages/mainIndex.scss";
+@import "pages/mainPromociones.scss";
+@import "pages/mainServicios.scss";
+@import "pages/mainProductos.scss";
+@import "pages/mainContacto.scss";
+
+@import "components/footer";
+
+@import "utilities/mediaQueries";

@@ -1,0 +1,23 @@
+/*Decoracion del header*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    height: $medidaUno;
+    img{
+        height: 100%;
+        width: 10%;
+        padding: 25px;
+    }
+    nav{
+        ul{
+            font-size: larger;
+            list-style: none;
+            color: cyan;
+            display: flex;
+            column-gap: 25px;
+            border: 10px;
+        }
+    }
+}

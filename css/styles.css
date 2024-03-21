@@ -1,12 +1,17 @@
+/*Resets*/
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
 /*Decoracion general*/
-html {
+/*html {
     font-style: italic;
-}
+}*/
 
 /*Decoracion del header*/
-header {
+/*header {
     display: flex;
-    /*flex-direction: column;*/
     align-items: center;
     justify-content: space-between;
     padding-right: 20px;
@@ -27,31 +32,31 @@ header nav ul {
     column-gap: 25px;
     display: flex;
     border: 10px;
-}
+}*/
 
 /*Decoracion de pagina principal*/
-main{
+/*main{
     background-color:rgb(255, 247, 237);
 }
 main section h1 {
     font-size: 50px;
     text-align: center;
     background-color: #B7FFD8;
-}
+}*/
 
-.tituloInicio {
+/*.tituloInicio {
     margin-bottom: 30px;
-}
+}*/
 
-.tituloSecundario {
+/*.tituloSecundario {
     font-size: 50px;
     text-align: center;
     background-color: #C4F5FC;
     text-decoration: none;
     margin-bottom: 30px;
-}
+}*/
 
-main h2 {
+/*main h2 {
     font-size: 30px;
     text-decoration: underline;
     text-align: center;
@@ -60,42 +65,45 @@ main h2 {
 main h3 {
     font-size: 25px;
     text-decoration: underline;
-}
+}*/
 
-.servicios {
+/*.servicios {
     text-align: left;
-}
+}*/
 
-.cardPrincipal {
+/*.cardPrincipal {
     width: 350px;
     height: 400px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 10px 5px rgba(45, 223, 255, 0.69);
-}
+}*/
 
-.cardPrincipal img {
+/*.cardPrincipal img {
     width: 100%;
     height: 250px;
-}
+}*/
+/*.imagenPrincipal{
+    object-fit: cover;
+}*/
 
-.gridImages {
+/*.gridImages {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     row-gap: 30px;
     padding-bottom: 30px;
-}
+}*/
 
-.textoPrincipal {
+/*.textoPrincipal {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 10px;
-}
+}*/
 
-.textoSecundario {
+/*.textoSecundario {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -103,20 +111,28 @@ main h3 {
 
 .textoSecundario h3 {
     text-align: center;
-}
+}*/
 
-.carousel-item img {
+/*.carousel-item img {
     width: 100%;
     height: 600px;
     padding-left: 10px;
     padding-right: 10px;
-}
+}*/
 
-.productos {
+/*.gridProductos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 30px;
+    padding-bottom: 30px;
+}*/
+
+/*.productos {
     margin-top: 30px;
-}
+}*/
 
-.cardProductos {
+/*.cardProductos {
     width: 350px;
     height: 400px;
     border-radius: 10px;
@@ -127,28 +143,27 @@ main h3 {
 .cardProductos img {
     width: 100%;
     height: 250px;
-}
-.gridServicios div img{
-    width: 400px;
+}*/
+/*.gridServicios div img{
+    width: 350px;
     height: 300px;
-}
-.gridServicios div{
-    margin: 10px;
+}*/
+/*.gridServicios div{
+    margin: 50px;
 }
 .gridServicios{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(2, 500px);
     width: 100px;
     margin: 10px;
-}
-.contacto{
+}*/
+/*.contacto{
     display: flex;
     flex-wrap: wrap;
-    /*flex-direction: column;*/
     justify-content: space-between;
-}
-.mapa{
+}**/
+/*.mapa{
     width: 450px;
     height: 400px;
     margin-right: 100px;
@@ -176,33 +191,31 @@ form{
 }
 .texto{
     width: 100%;
-}
+}*/
 
 /*Decoracion de pie de pagina*/
-.footer {
+/*.footer {
     padding: 0px;
     margin: 0px;
     display: flex;
     align-items: center;
     height: 150px;
     justify-content: space-between;
-}
-footer section div{
+}*/
+/*footer section div{
     height: 100%;
     width: 30%;
-}
-.imagenFooter {
+}*/
+/*.imagenFooter {
     height: 100%;
     margin-left: 5px;
-}
-.tituloRedes{
-    text-align: center;
-}
-footer h2 {
+}*/
+
+/**footer h2 {
     text-align: center;
     font-size: 30px;
-}
-.informacionContacto{
+}*/
+/*.informacionContacto{
     display: flex;
     flex-direction: column;
     text-align: end;
@@ -211,25 +224,47 @@ footer h2 {
 .informacionContacto p{
     font-size: medium;
     margin-bottom: 2px;
-}
+}*/
 
-.redesContacto {
+/*.redesContacto {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-}
-.inicioPrincipal {
-    grid-template-rows: repeat(3, 300px);
-}
+}*/
+
 /*Media Queries*/
-@media screen and (max-width: 768px){
-    header img{
+/*@media screen and (max-width: 768px){
+    /*header img{
         width: 150px;
-    }
-    .mapa{
-        margin-left: 100px;
+    }*/
+    /*.mapa{
+        margin-left: 50px;
         margin-bottom: 50px;
+        height: 300px;
+    }*/
+    /*.gridServicios{
+        display: flex;
+        flex-wrap: wrap;
     }
-}
+    .gridServicios div{
+        margin: 10px;
+    }
+    .servicios{
+        text-align: center;
+    }*/
+    /*.formularioNombre{
+        width: 200px;
+    }
+    .formularioEmail{
+        width: 200px;
+    }
+    .formularioMensaje{
+        width: 200px;
+    }*/
+    /*Se utilizo el estilo kebab-case por ser de Bootstrap*/
+    /*.carousel-item img{
+        height: 300px;
+    }
+}*/

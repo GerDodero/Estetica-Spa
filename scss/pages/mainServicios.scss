@@ -1,0 +1,21 @@
+/*Main Servicios*/
+.mainServicios{
+    .gridServicios{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(2, 500px);
+        width: 100px;
+        margin: 10px;
+        div{
+            margin: 50px;
+            img{
+                width: 350px;
+                height: 300px;
+                border-radius: 10px;
+            }
+        }
+    }
+    .servicios{
+        text-align: left;
+    }
+}

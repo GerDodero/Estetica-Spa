@@ -1,0 +1,22 @@
+/*Decoracion general*/
+html{
+    font-style: italic;
+}
+/*Decoracion del main (todos los HTML)*/
+main{
+    background-color:rgb(255, 247, 237);
+    section h1{
+        font-size: 50px;
+        text-align: center;
+        background-color: #B7FFD8;
+    }
+    h2{
+        font-size: $medidaCorta;
+        text-decoration: underline;
+        text-align: center;
+    }
+    h3{
+        font-size: 25px;
+        text-decoration: underline;
+    }
+}
